@@ -13,13 +13,13 @@
 		
 
 
-	   /*В массиве result_matrinx хранится матрица*/
-		public $result_matrix=array(); 
-	   /*В массиве  хранится матрица, умноженная на искомый вектор*/
-		public $matrix_and_pattern=array();
-		/*Массив хранит рузльтут умножения искомого вектора на матрицу с применением
-		 * функции активации*/
-		public $activation_matrix_and_pattern=array();
+	 /*В массиве result_matrinx хранится матрица*/
+	public $result_matrix=array(); 
+	/*В массиве  хранится матрица, умноженная на искомый вектор*/
+	public $matrix_and_pattern=array();
+	/*Массив хранит рузльтут умножения искомого вектора на матрицу с применением
+	 * функции активации*/
+	public $activation_matrix_and_pattern=array();
 			
 			
 			
@@ -37,9 +37,9 @@
 			
 		
 		  /*Умножение векторов*/
-		  print '<strong>Векторы, умноженные на себя </strong>';
+	print '<strong>Векторы, умноженные на себя </strong>';
 		 
-		  for ($y=0; $y < count($vector)+1; $y++) {
+ 	for ($y=0; $y < count($vector)+1; $y++) {
 			
 			print '<br/>';	
 			
